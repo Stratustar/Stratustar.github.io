@@ -1,0 +1,8 @@
+.DS_Store
+CV .pdf
+IMG_1398.jpeg
+assets/photography/*
+!assets/photography/.gitkeep
+assets/watch/*
+!assets/watch/.gitkeep
+!assets/watch/watch-preview.jpg
