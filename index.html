@@ -15,7 +15,7 @@
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/profile.png">
-    <link rel="stylesheet" href="styles.css?v=20260529-craft">
+    <link rel="stylesheet" href="styles.css?v=20260529-music-photo">
   </head>
   <body data-page="home">
     <header class="site-hero" id="top" aria-label="Hengdong Lu">
@@ -117,6 +117,7 @@
                 speech about it. A small photo page keeps a few frames I like.
               </p>
               <a class="photo-preview" href="photography.html" aria-label="Open photography gallery" data-i18n-attr="aria-label:home.life.photoPreviewAria">
+                <img class="photo-feature" src="assets/gallery/photo-41.jpg" alt="Featured photography preview" loading="lazy">
                 <img src="assets/gallery/photo-14.jpg" alt="Photography preview 1" loading="lazy">
                 <img src="assets/gallery/photo-28.jpg" alt="Photography preview 2" loading="lazy">
                 <img src="assets/gallery/photo-15.jpg" alt="Photography preview 3" loading="lazy">
@@ -129,25 +130,36 @@
               <p class="life-label" data-i18n="home.life.musicLabel">Music</p>
               <h3 data-i18n="home.life.musicTitle">Warm fusion textures.</h3>
               <p data-i18n="home.life.musicText">
-                I am drawn to the modern, loose side of fusion: the soft swing of
-                Nujabes, the glowing keyboard language of FKJ, and music that feels
-                like a room slowly finding its light.
+                I like the warm, modern looseness of Nujabes and iwamizu: beat-driven
+                music with jazz color, soft edges, and enough space to think inside.
               </p>
-              <div class="mini-player" aria-label="Spotify track link" data-i18n-attr="aria-label:home.life.playerAria">
-                <div class="player-topline">
-                  <a
-                    class="play-button spotify-button"
-                    href="https://open.spotify.com/track/72nlmWl2EKEPg0mlQpwPqF"
-                    target="_blank"
-                    rel="noopener"
-                    data-i18n="home.life.spotifyButton"
-                    data-i18n-attr="aria-label:home.life.spotifyAria"
-                  >Play</a>
+              <div class="mini-player" aria-label="Spotify track links" data-i18n-attr="aria-label:home.life.playerAria">
+                <a
+                  class="track-link"
+                  href="https://open.spotify.com/track/72nlmWl2EKEPg0mlQpwPqF"
+                  target="_blank"
+                  rel="noopener"
+                  data-i18n-attr="aria-label:home.life.spotifyLuvAria"
+                >
+                  <span class="play-button spotify-button" data-i18n="home.life.spotifyButton">Play</span>
                   <div>
-                    <p class="track-title" data-i18n="home.life.trackTitle">Luv (sic) pt 4 Instrumentals</p>
-                    <p class="track-meta" data-i18n="home.life.trackMeta">Nujabes · opens on Spotify</p>
+                    <p class="track-title" data-i18n="home.life.trackLuvTitle">Luv (sic) pt 4 Instrumentals</p>
+                    <p class="track-meta" data-i18n="home.life.trackLuvMeta">Nujabes · opens on Spotify</p>
                   </div>
-                </div>
+                </a>
+                <a
+                  class="track-link"
+                  href="https://open.spotify.com/track/5DHS2QtR6tkNRAZdJ51Lrd"
+                  target="_blank"
+                  rel="noopener"
+                  data-i18n-attr="aria-label:home.life.spotifyRinkiAria"
+                >
+                  <span class="play-button spotify-button" data-i18n="home.life.spotifyButton">Play</span>
+                  <div>
+                    <p class="track-title" data-i18n="home.life.trackRinkiTitle">Rinki</p>
+                    <p class="track-meta" data-i18n="home.life.trackRinkiMeta">iwamizu · opens on Spotify</p>
+                  </div>
+                </a>
               </div>
             </article>
 
@@ -221,6 +233,6 @@
       <a href="#top" data-i18n="footer.backTop">Back to top</a>
     </footer>
 
-    <script src="script.js?v=20260529-craft"></script>
+    <script src="script.js?v=20260529-music-photo"></script>
   </body>
 </html>
