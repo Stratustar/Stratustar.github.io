@@ -779,6 +779,10 @@ h2 {
 
   .site-hero {
     min-height: 88vh;
+    background-image:
+      linear-gradient(90deg, rgba(16, 24, 22, 1) 0%, rgba(16, 24, 22, 0.82) 48%, rgba(16, 24, 22, 0.12) 100%),
+      url("assets/profile-mobile.jpg");
+    background-position: center, center top;
   }
 
   .nav-links a {
