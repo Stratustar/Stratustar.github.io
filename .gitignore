@@ -6,3 +6,6 @@ assets/photography/*
 assets/watch/*
 !assets/watch/.gitkeep
 !assets/watch/watch-preview.jpg
+assets/keyboard/*
+!assets/keyboard/keyboard-01.jpg
+!assets/keyboard/keyboard-02.jpg

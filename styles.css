@@ -428,6 +428,18 @@ h2 {
   margin-top: 16px;
 }
 
+.life-card .craft-topic {
+  margin-top: 18px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.life-card .craft-topic + p {
+  margin-top: 8px;
+}
+
 .photo-card {
   background:
     linear-gradient(135deg, rgba(36, 88, 74, 0.08), rgba(36, 95, 155, 0.12)),
@@ -464,7 +476,7 @@ h2 {
     var(--white);
 }
 
-.watch-card {
+.craft-card {
   background:
     linear-gradient(135deg, rgba(32, 35, 34, 0.06), rgba(36, 88, 74, 0.13)),
     var(--white);
@@ -523,34 +535,33 @@ h2 {
   line-height: 1.3;
 }
 
-.watch-visual {
+.craft-visual {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 6px;
   height: 170px;
   margin: -24px -24px 22px;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0) 0 30%, rgba(255, 255, 255, 0.75) 31% 32%, rgba(255, 255, 255, 0) 33%),
-    conic-gradient(from 0deg, #202322, #24584a, #d85f42, #f2c94c, #202322);
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.62);
   border-bottom: 1px solid var(--line);
 }
 
-.watch-visual img {
+.craft-visual img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 6px;
+}
+
+.craft-visual img:first-child {
+  grid-row: 1 / 3;
   object-position: center 46%;
 }
 
-.watch-visual.missing {
-  display: grid;
-  place-items: center;
-}
-
-.watch-visual.missing::after {
-  content: "";
-  width: 96px;
-  height: 96px;
-  border: 10px solid rgba(255, 255, 255, 0.72);
-  border-radius: 50%;
-  box-shadow: inset 0 0 0 2px rgba(32, 35, 34, 0.25), 0 14px 30px rgba(32, 35, 34, 0.22);
+.craft-visual img:nth-child(2),
+.craft-visual img:nth-child(3) {
+  object-position: center;
 }
 
 .contact-section {

@@ -41,4 +41,12 @@ assets/watch/
 
 Then replace the placeholder in `index.html`.
 
+Keyboard source photos can be added under:
+
+```text
+assets/keyboard/
+```
+
+Then generate web-sized copies named `keyboard-01.jpg` and `keyboard-02.jpg`.
+
 The original CV and original profile photo are ignored so they are not accidentally published.
