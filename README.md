@@ -8,7 +8,8 @@ Static personal website for GitHub Pages.
 - `photography.html`: photography gallery page
 - `styles.css`: site styling
 - `script.js`: gallery fallback and browser-generated music sketch
-- `assets/profile.png`: hero/background image
+- `assets/home-hero.jpg`: desktop hero/background image
+- `assets/home-hero-mobile.jpg`: mobile hero/background image
 - `assets/gallery/`: web-sized photography images with metadata stripped
 
 ## GitHub Pages
